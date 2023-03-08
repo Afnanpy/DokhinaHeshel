@@ -1,0 +1,174 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}y
+body{
+	width: 100%;
+}
+.navbar{
+	display: flex;
+	align-items: center;
+	padding: 40px;
+	
+}
+nav{
+	text-align: right;
+
+}
+nav ul{
+	display: inline-block;
+	list-style-type: none;
+}
+nav ul li{
+	display: inline-block;
+	margin-right: 40px;
+}
+.logo{
+	margin-right: 350px;
+  
+}
+.container{
+	max-width: 1300px;
+	margin: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color:  #fff49a ;
+	margin-bottom: 50px;
+}
+a{
+	text-decoration: none;
+	color: black;
+
+}
+/*
+
+
+.column2 img{
+	height: 400px;
+	padding: 50px 0;
+	padding-left: 25px;
+
+	
+}
+.column2 h1{
+	line-height: 60px;
+	font-size: 50px;
+	margin: 25px 0;
+	margin-right: 60px;
+
+}
+*/
+.btn{
+	display: inline-block;
+	background:#ff523b;
+	color: #fff;
+	padding: 8px 30px;
+	margin: 30px 0;
+	border-radius: 30px;
+	transition: background 0.5s;
+
+}
+.btn:hover{
+	background-color: grey;
+}
+.header{
+	background-color:  #fff49a ;
+}
+
+.header .row{
+	margin-top: 70px;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+.Category{
+	margin: 70px 0;
+	margin-top: 70px;
+	background-color:  #ffbc87;
+
+
+
+}
+.column3{
+	flex-basis: 30%;
+	min-width: 250px;
+	margin-bottom: 25px;
+}
+.column3 img{
+	width: 100%;
+
+}
+.smallcontainer{
+	max-width: 1080px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+
+
+}
+
+.column4{
+	flex-basis: 25%;
+	padding: 10px;
+	min-width: 300px;
+	margin-bottom: 25px;
+	transition: transform 0.5s;
+}
+
+.column4 img{
+	width: 100%;
+  border-radius: 10%;
+
+
+}
+
+.title{
+	text-align: center;
+	margin: 0 auto 80px;
+	position: relative;
+	line-height: 60px;
+	color: black;
+}
+.title::after{
+	content: " ";
+	background:#ff523b;
+	width:80px;
+	height: 5px;
+	border-radius: 5px;
+	position: absolute;
+	left:50%;
+	transform: translate(-50%);
+}
+.column4:hover{
+	transform: translateY(-10px);
+}
+body{
+	background-color:  #ffbc87;
+}
+.column2{
+	flex-basis: 50px;
+	min-width: 300px;
+}
+.column2 img{
+	max-width: 100%;
+	padding: 50px 0;
+}
+
+.column2 h1{
+	font-size: 50px;
+	line-height: 60px;
+	margin: 25px 0;
+}
+.offer{
+	background-color: radial-gradient(#fff, #ffd6d6);
+	margin-top: 80px;
+	padding: 30px 0;
+}
+.offer img{
+	padding: 50px;
+	font-size: 20px;
+}
